@@ -1,0 +1,120 @@
+
+(rules PCB pandp
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 12851)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-12v" "Via[0-1]_600:400_um" 12v
+  )
+  (via 
+    "Via[0-1]_600:400_um-5v" "Via[0-1]_600:400_um" 5v
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    12v "Via[0-1]_600:400_um-12v"
+  )
+  (via_rule
+    5v "Via[0-1]_600:400_um-5v"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "OSC32_OUT" "OSC32_IN" "Net-(C8-Pad1)" +3V3 "OSC_OUT" "OSC_IN" "MEASURE_0" "MEASURE_1"
+    "EN_X" "Net-(DRV1-Pad2)" "Net-(DRV1-Pad3)" "Net-(DRV1-Pad4)" "Net-(DRV1-Pad5)" "STEP_X" "DIR_X" "EN_Y"
+    "Net-(DRV2-Pad2)" "Net-(DRV2-Pad3)" "Net-(DRV2-Pad4)" "Net-(DRV2-Pad5)" "STEP_Y" "DIR_Y" "EN_A" "Net-(DRV3-Pad2)"
+    "Net-(DRV3-Pad3)" "Net-(DRV3-Pad4)" "Net-(DRV3-Pad5)" "STEP_A" "DIR_A" "EN_B" "Net-(DRV4-Pad2)" "Net-(DRV4-Pad3)"
+    "Net-(DRV4-Pad4)" "Net-(DRV4-Pad5)" "STEP_B" "DIR_B" "Net-(IC1-Pad4)" "Net-(P8-Pad2)" "Net-(P8-Pad3)" "UART1_RX"
+    "UART1_TX" GD1 MISO MOSI SCK GD2 GD3 BOOT0
+    "SDA_1" "SCL_1" "SDA_2" "SCL_2" "END_X" "END_Y" "END_A" "END_B"
+    "SERV_1" "SERV_2" "SERV_3" "SERV_4" "SERV_5" "SERV_6" "CONT_2" "CONT_1"
+    RESET "USB_D_P" "USB_D_N" GNDA GNDD
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 12v
+    GND +12V "Net-(DRV1-Pad11)" "Net-(DRV1-Pad12)" "Net-(DRV1-Pad13)" "Net-(DRV1-Pad14)" "Net-(DRV2-Pad11)" "Net-(DRV2-Pad12)"
+    "Net-(DRV2-Pad13)" "Net-(DRV2-Pad14)" "Net-(DRV3-Pad11)" "Net-(DRV3-Pad12)" "Net-(DRV3-Pad13)" "Net-(DRV3-Pad14)" "Net-(DRV4-Pad11)" "Net-(DRV4-Pad12)"
+    "Net-(DRV4-Pad13)" "Net-(DRV4-Pad14)" "Net-(P6-Pad3)" "Net-(P7-Pad3)" "/GND_IN"
+    (clearance_class 12v)
+    (via_rule 12v)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 5v
+    +5V "Net-(C8-Pad2)"
+    (clearance_class 5v)
+    (via_rule 5v)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
