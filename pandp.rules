@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 12851)
+    (start_pass_no 12401)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.1)
+      (against_preferred_direction_trace_costs 2.7)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.9)
+      (against_preferred_direction_trace_costs 1.6)
     )
   )
   (rule
@@ -83,7 +83,7 @@
     "UART1_TX" GD1 MISO MOSI SCK GD2 GD3 BOOT0
     "SDA_1" "SCL_1" "SDA_2" "SCL_2" "END_X" "END_Y" "END_A" "END_B"
     "SERV_1" "SERV_2" "SERV_3" "SERV_4" "SERV_5" "SERV_6" "CONT_2" "CONT_1"
-    RESET "USB_D_P" "USB_D_N" GNDA GNDD
+    RESET "USB_D_P" "USB_D_N" GNDA GNDD +5VL
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -100,7 +100,7 @@
     (clearance_class 12v)
     (via_rule 12v)
     (rule
-      (width 600.0)
+      (width 1000.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
@@ -111,7 +111,7 @@
     (clearance_class 5v)
     (via_rule 5v)
     (rule
-      (width 400.0)
+      (width 700.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
