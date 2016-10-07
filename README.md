@@ -30,7 +30,7 @@ working model, i'll share it as a project on oshpark!
 
 Thanks go to the folk who do arduino, the folk who do stm32duino and
 many others probably. As of the current version the only hardware 
-desiner is me... Im also the only coder... and the only everything else
+designer is me... Im also the only coder... and the only everything else
 but would welcome others
 
 ## Where it starts
