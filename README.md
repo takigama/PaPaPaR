@@ -23,6 +23,9 @@ This project is based on the STM32F103 chip and will (at least
 initially) use the STM32duino code base with the arduino software
 stack for making the thing "go"
 
+You'll need kicad if you want to see the board and once i have a
+working model, i'll share it as a project on oshpark!
+
 ## Thanks
 
 Thanks go to the folk who do arduino, the folk who do stm32duino and
