@@ -44,7 +44,7 @@ of camera work.
 ## What you need
 
 - 3 Steppers (one for the pump)
-- Perastaltic pump that can be driving by stepper (or 5-6v)
+- Perastaltic pump that can be driving by stepper (or 5-6v DC)
 - a pick-up sucktion cup (i have a design for this thats really simple)
 - a usb microscope.
 - a design for it all to sit on
