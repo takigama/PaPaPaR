@@ -83,3 +83,7 @@ it)
 3. Its alpha
 
 4. Im not the worlds greatest hardware designer (or even a good one)!
+
+5. Currently doesnt have a license - feel free to do as you will, but will
+ultimately be licensed under a compatible open source license (GPL for code
+as an example)
