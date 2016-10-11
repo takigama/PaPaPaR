@@ -44,11 +44,15 @@ of camera work.
 ## What you need
 
 - 3 Steppers (one for the pump)
-- Perastaltic pump that can be driving by stepper
+- Perastaltic pump that can be driving by stepper (or 5-6v)
 - a pick-up sucktion cup (i have a design for this thats really simple)
 - a usb microscope.
 - a design for it all to sit on
 - a fair amount of imagination and pixie dust!
+
+The pump (which is used to hold components) can either be stepper driven
+or you can find plenty of 5-6v aquarium pumps on ebay that should surfice
+but they want to be less than 1A.
 
 Currently im working on the design of the actual platform for the whole
 unit and it will look like a distant cousin of something like the mendel
@@ -58,3 +62,4 @@ head. I was VERY tempted to do a delta but am shelving that idea for now
 Currently there also exists no code but watch this space - some will
 definitely be borrowed from the sprinter/marlin code bases but no code
 yet exists.
+
