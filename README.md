@@ -57,6 +57,7 @@ of camera work.
 - a usb microscope.
 - a design for it all to sit on
 - a fair amount of imagination and pixie dust!
+- a 12v power source
 
 The pump (which is used to hold components) can either be stepper driven
 or you can find plenty of 5-6v aquarium pumps on ebay that should surfice
