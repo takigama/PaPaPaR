@@ -28,10 +28,10 @@ working model, i'll share it as a project on oshpark!
 
 ## Thanks
 
-Thanks go to the folk who do arduino, the folk who do stm32duino and
-many others probably. As of the current version the only hardware 
-designer is me... Im also the only coder... and the only everything else
-but would welcome others
+Thanks go to the folk who do arduino, the folk who do stm32duino, to
+the folk who do KiCad and many others probably. As of the current version
+the only hardware designer is me... Im also the only coder... and the only
+everything else but would welcome others
 
 ## Where it starts
 
@@ -40,6 +40,9 @@ The first version will be quite simple. Designed to be controlled with
 and place will be done "manually" but all electrically - i.e. you'll
 place componets using joystick with some interesting hot keys and a bit
 of camera work.
+
+## It Looks Like This:
+![Top](https://rawgit.com/takigama/PaPaPaR/master/hardware/pandp_s.png)
 
 ## What you need
 
