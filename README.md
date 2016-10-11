@@ -14,6 +14,7 @@ the board.
 The board itself is reasonably compact but not a huge amount of work
 has gone into it yet.
 
+
 ## Usage
 
 Well, none yet. Haven't even printed the board yet. Currently using
@@ -26,12 +27,14 @@ stack for making the thing "go"
 You'll need kicad if you want to see the board and once i have a
 working model, i'll share it as a project on oshpark!
 
+
 ## Thanks
 
 Thanks go to the folk who do arduino, the folk who do stm32duino, to
 the folk who do KiCad and many others probably. As of the current version
 the only hardware designer is me... Im also the only coder... and the only
 everything else but would welcome others
+
 
 ## Where it starts
 
@@ -41,8 +44,10 @@ and place will be done "manually" but all electrically - i.e. you'll
 place componets using joystick with some interesting hot keys and a bit
 of camera work.
 
+
 ## It Looks Like This:
 ![Top](https://rawgit.com/takigama/PaPaPaR/master/hardware/pandp_s.png)
+
 
 ## What you need
 
@@ -66,3 +71,14 @@ Currently there also exists no code but watch this space - some will
 definitely be borrowed from the sprinter/marlin code bases but no code
 yet exists.
 
+
+## Things To Note
+
+1. Its designed to be possible to hand solder (which is how I will build
+it)
+
+2. I take no responsibility if it does anything negative!
+
+3. Its alpha
+
+4. Im not the worlds greatest hardware designer (or even a good one)!
