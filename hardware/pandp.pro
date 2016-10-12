@@ -1,4 +1,4 @@
-update=Mon 03 Oct 2016 17:01:19 AEDT
+update=Wed 12 Oct 2016 04:24:07 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=/home/paulr/owncloud.home/Electronics/KiCadLibs-Ext/POLOLU-DRV8825/pol
 LibName31=stm32
 LibName32=/home/paulr/owncloud.home/Electronics/KiCadLibs/hr911105_rj45
 LibName33=/home/paulr/owncloud.home/Electronics/KiCadLibs/MyConnectors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
