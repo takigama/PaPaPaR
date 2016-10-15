@@ -2890,4 +2890,27 @@ F 3 "" H 4300 850 50  0000 C CNN
 	1    4300 850 
 	0    -1   -1   0   
 $EndComp
+$Comp
+L R R22
+U 1 1 58029668
+P 4600 1750
+F 0 "R22" V 4680 1750 50  0000 C CNN
+F 1 "4.7k" V 4600 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 1750 50  0001 C CNN
+F 3 "" H 4600 1750 50  0000 C CNN
+	1    4600 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 1600 4600 1350
+Connection ~ 4600 1350
+Wire Wire Line
+	4600 1900 4600 1950
+Wire Wire Line
+	4600 1950 4450 1950
+Wire Wire Line
+	4450 1950 4450 1650
+Wire Wire Line
+	4450 1650 4200 1650
+Connection ~ 4200 1650
 $EndSCHEMATC
